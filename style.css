@@ -62,3 +62,86 @@ nav ul li a {
 nav ul li a:hover {
     color: orange;
 }
+
+/* Banner Part */
+.info {
+    width: 45%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.info h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+span {
+    color: orange;
+}
+
+.info p {
+    color: var(--secondary-color);
+    line-height: 1.7;
+}
+
+.info a {
+    background: var(--secondary-color);
+    padding: 10px 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.img-box {
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+}
+
+.img-box img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.back-img {
+    height: 90%;
+}
+
+.main-img {
+    width: 90% !important;
+    height: 80%;
+    left: 30px;
+    position: relative;
+}
+
+.img-box:hover .back-img {
+    bottom: 70px;
+}
+
+.img-box:hover .main-img {
+    left: 54%;
+}
+
+.social-link {
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social-link a {
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-right: 20px;
+}
+
+.social-link a:hover {
+    color: orange;
+}
