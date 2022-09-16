@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Site</title>
+    <title>feedback Site</title>
     <link rel="stylesheet" href="style.css">
 
 
@@ -27,10 +27,10 @@
                 <img id="icon" src="./dark theme icon/moon.png" alt="">
             </nav>
             <div class="info">
-                <h1>Your Favorite <span>Blog Site.</span></h1>
+                <h1>Your Favorite <span>feedback Site.</span></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni inventore consequuntur delectus
                     reprehenderit minima nihil.</p>
-                <a href="">See Blogs</a>
+                <a href="">See feedbacks</a>
             </div>
             <div class="img-box">
                 <img class="back-img" src="./shape-2.png" alt="">
@@ -50,7 +50,7 @@
     </section>
     <hr style="margin-top: 50px; margin-bottom: 50px;">
 
-    <h1 class="gallery-title">Gallery OF Bloggers</h1>
+    <h1 class="gallery-title">Gallery OF feedbackgers</h1>
 
     <section class="gallery">
         <div id="fullImgBox" class="full-img">
@@ -67,6 +67,25 @@
             <img onclick="openFullImg(this.src)" src="./Grid_Gallery_Img/img6.jpg" alt="">
             <img onclick="openFullImg(this.src)" src="./Grid_Gallery_Img/img7.jpg" alt="">
             <img onclick="openFullImg(this.src)" src="./Grid_Gallery_Img/img8.jpg" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <form>
+                <div class="form-control">
+                    <label class="form-title" for="Name">Your Blog Name</label>
+                    <input type="text" id="name" autocomplete="off" placeholder="Enter Your feedback Name">
+                </div>
+                <div class="form-control">
+                    <label class="form-title" for="feedback">Write Your Blog</label>
+                    <input type="text" id="feedback" autocomplete="off" placeholder="Write Your Spetial feedback">
+                </div>
+                <button class="submit">Add</button>
+            </form>
+        </div>
+        <div class="feedback">
+
         </div>
     </section>
 
